@@ -1,0 +1,11 @@
+package drools.license;
+
+import drools.license.Applicant;
+
+rule "Is of valid age"
+when
+    $a : Applicant( age >= 18 )
+then
+    $a.setValid( true );
+    System.out.println( $a.getName() + " is eligible for license." );
+end
