@@ -1,0 +1,2 @@
+# droolsexample
+Drools practice examples.
