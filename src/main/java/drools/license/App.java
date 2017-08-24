@@ -24,7 +24,6 @@ public class App {
         applicantList.add(new Applicant("Jakka",12));
         applicantList.add(new Applicant("banda",79));
 
-
         kSession.execute(applicantList);
 
     }

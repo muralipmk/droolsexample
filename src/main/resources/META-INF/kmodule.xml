@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
-  <kbase name="AuditKBase" default="true" packages="drools.alarm">
-    <ksession name="AuditKSession" type="stateful" default="true" />
+  <kbase name="AlarmBase" default="true" packages="drools.alarm">
+    <ksession name="AlarmSession" type="stateful" default="true" />
   </kbase>
-  <kbase name="AuditKBase1" default="true" packages="drools.license">
-    <ksession name="AuditKSession1" type="stateless" default="true" />
+  <kbase name="LicenseBase" default="true" packages="drools.license">
+    <ksession name="LicenseSession" type="stateless" default="true" />
   </kbase>
 </kmodule>
